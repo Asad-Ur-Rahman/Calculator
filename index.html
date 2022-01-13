@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form onsubmit="calculator(); return false">
+        <fieldset>
+            <legend>Calculator</legend>
+
+            <label for="v1">First Value</label>
+            <input type="number" name="" id="v1"> <br>
+            <label for="v2">Second Value</label>
+            <input type="number" name="" id="v2"> <br>
+
+            <label for="">Operation</label>
+
+            <input list="operation" name="operation" id="op">
+            <datalist id="operation">
+                <option value="+">
+                <option value="-">
+                <option value="*">
+                <option value="/">
+                
+            </datalist> <br>
+
+            <input type="submit" value="Calculate">
+
+
+        </fieldset>
+    </form>
+
+    <label for="opt">Result</label>
+    <input type="number" name="" id="opt" readonly>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
