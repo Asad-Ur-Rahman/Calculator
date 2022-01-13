@@ -32,6 +32,12 @@ function calculator() {
             result.value= value1 / value2;
             break;
 
+
+        case "**":
+
+            result.value= value1 ** value2;
+            break;
+
     
     }
 }
