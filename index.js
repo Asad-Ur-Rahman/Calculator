@@ -5,7 +5,7 @@ function calculator() {
     var operator = document.getElementById("op").value;
     var result = document.getElementById("opt");
 
-    result.value = "";
+    //result.value = "";
 
 
     console.log(typeof (value1));
